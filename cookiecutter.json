@@ -1,0 +1,10 @@
+{
+    "role_title": "rename me",
+    "role_name": "{{ cookiecutter.role_title | lower | replace(' ','_') }}",
+    "molecule_scenario_name": "default",
+    "author": "who are you?",
+    "short_description": "Short Desc here",
+    "company": "Fleetcor",
+    "license": ["Apache 2.0", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"],
+    "min_ansible_version": "2.9"
+}

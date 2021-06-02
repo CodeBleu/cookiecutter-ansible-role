@@ -1,0 +1,7 @@
+*/
+
+!/.gitignore
+!/.requirements.yml
+
+!/{{cookiecutter.role_name}}/
+!/{{cookiecutter.role_name}}/**

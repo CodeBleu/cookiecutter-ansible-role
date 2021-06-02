@@ -1,0 +1,11 @@
+warn_list:
+  - var-spacing
+  - no-handler
+  - command-instead-of-shell
+  - role-name
+  - risky-file-permissions
+  - meta-no-info
+  - meta-incorrect
+skip_list:
+  - yaml
+  - experimental
