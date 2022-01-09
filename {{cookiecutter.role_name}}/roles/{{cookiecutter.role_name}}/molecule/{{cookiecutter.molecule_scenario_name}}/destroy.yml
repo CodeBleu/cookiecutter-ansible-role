@@ -14,7 +14,7 @@
       set_fact:
         instance_conf: {}
 
-    - name: Dump instance config
+    - name: Dump instance config  # noqa risky-file-permissions no-handler
       copy:
         content: |
           # Molecule managed
